@@ -1,0 +1,90 @@
+{
+	"name": "Json1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage2",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "test01"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"MinTemp": {
+					"type": "number"
+				},
+				"MaxTemp": {
+					"type": "number"
+				},
+				"Rainfall": {
+					"type": "number"
+				},
+				"Evaporation": {
+					"type": "number"
+				},
+				"Sunshine": {
+					"type": "string"
+				},
+				"WindGustDir": {
+					"type": "string"
+				},
+				"WindGustSpeed": {
+					"type": "string"
+				},
+				"WindDir9am": {
+					"type": "string"
+				},
+				"WindDir3pm": {
+					"type": "string"
+				},
+				"WindSpeed9am": {
+					"type": "string"
+				},
+				"WindSpeed3pm": {
+					"type": "string"
+				},
+				"Humidity9am": {
+					"type": "string"
+				},
+				"Humidity3pm": {
+					"type": "string"
+				},
+				"Pressure9am": {
+					"type": "number"
+				},
+				"Pressure3pm": {
+					"type": "number"
+				},
+				"Cloud9am": {
+					"type": "string"
+				},
+				"Cloud3pm": {
+					"type": "string"
+				},
+				"Temp9am": {
+					"type": "number"
+				},
+				"Temp3pm": {
+					"type": "number"
+				},
+				"RainToday": {
+					"type": "string"
+				},
+				"RISK_MM": {
+					"type": "number"
+				},
+				"RainTomorrow": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
