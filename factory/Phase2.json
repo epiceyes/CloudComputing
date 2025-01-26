@@ -1,0 +1,9 @@
+{
+	"name": "Phase2",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "44eaccf4-9b26-4e81-afa9-34ae8e648de2",
+		"tenantId": "90c144fd-3a3a-489c-a300-8084988ed80a"
+	}
+}
